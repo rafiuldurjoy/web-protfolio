@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -6,7 +7,13 @@ h1{
     font-family: 'Potta One', cursive;
     line-height: 40px;
 }
-.name-highlight{
+h2{
+    font-size: 40px;
+}
+h3{
+    margin-bottom: 5px;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -17,9 +24,67 @@ h1{
 
 .half-width p{
     width: 80%;
+    margin-top:5px;
 }
 
 .half-width img{
     display: block;
     margin: 0px auto;
+}
+.top-banner{
+    background-image: url("images/top-banner.png") ;
+}
+section{
+    height: 500px;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSALmon,tomato );
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+#images{
+    height: 500px;
+}
+
+.dream{
+    margin-top: 30%;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    height: 60%;
+}
+.experience-area{
+    margin-top: 200px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    margin-left: 30%;
+}
+
+#full-stack-text{
+    margin-left: 10%;
+}
+
+#exp-header{
+    text-align: center;
+}
+footer p{
+    text-align: center;
 }
