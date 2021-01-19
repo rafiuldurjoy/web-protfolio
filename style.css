@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Potta One', cursive;
+    line-height: 40px;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 0px 5%;
+}
+
+.half-width p{
+    width: 80%;
+}
+
+.half-width img{
+    display: block;
+    margin: 0px auto;
+}
