@@ -15,6 +15,7 @@ h3{
 }
 .orange-highlight{
     color: orange;
+    
 }
 .half-width{
     width: 40%;
@@ -63,7 +64,7 @@ section{
 .single-experience{
     box-shadow: 10px 10px 40px gray ;
     border-radius: 5px;
-    height: 60%;
+    height: 70%;
 }
 .experience-area{
     margin-top: 200px;
